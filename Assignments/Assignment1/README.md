@@ -15,6 +15,7 @@ There are two main files
 - [Assignment1.py](https://github.com/Sasank09/CS5710_13469/blob/main/Assignments/Assignment1/Assignment1.py)
   - this file can be executed in command-line / terminal
 
+`Video`[Click this link](https://vimeo.com/744380141/2fc86ee595)
 ---
 ## Student Info
 - First Name: Venkata Lakshmi Sasank
