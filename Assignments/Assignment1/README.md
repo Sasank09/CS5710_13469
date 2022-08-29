@@ -11,7 +11,7 @@ Please install the following modules/libraries of python before running code
 
 There are two main files
 - [ML_Assignment1.ipynb](https://github.com/Sasank09/CS5710_13469/blob/main/Assignments/Assignment1/ML_Assignment.ipynb)
-  - please run this file in jupyter notebook for results
+  - please run this file in jupyter notebook for results (Preferred)
 - [Assignment1.py](https://github.com/Sasank09/CS5710_13469/blob/main/Assignments/Assignment1/Assignment1.py)
   - this file can be executed in command-line / terminal
 

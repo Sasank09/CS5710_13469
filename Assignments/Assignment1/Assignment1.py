@@ -19,15 +19,14 @@ print("Median of ages: ", statistics.median(ages))
 print("Average of ages: ", statistics.mean(ages))
 print("Range of ages: ", max(ages)-min(ages))
 
-#we can also use below code to find median and average of listed data
+# we can also use below code to find median and average of listed data
 # ages_length = len(ages)
 # if ages_length/2 != 0:
-#     print("Median of ages: ", ages[int(ages_length/2)])
+#     print('Median of ages: ', ages[int(ages_length/2)])
 # else:
-#     print("Median of ages: ", ages[ages_length-1/2]+ages[ages_length+1/2])
-    
+#     print('Median of ages: ', ages[ages_length-1/2]+ages[ages_length+1/2])   
+# print('Average of ages: ', sum(ages)/ages_length)
 # print("Average of ages: ", sum(ages)/ages_length)
-
 
 
 #Question 2
@@ -50,7 +49,7 @@ student_dict.update({"first_name": "Sasank", "last_name": "Tipparaju", "gender":
                      "marital status": "Single", "skills": ["Java","Python"], "country": "India", "city": "Nellore",
                      "address": "2B ABC Street"})
 
-print("\nStudent_dict after values update: ", student_dict)
+print("\nStudent_dict ", student_dict)
 
 #accessing paritcular value of key in dict: dict["key"]
 print("\nAccessing Skills value in dictionary: ",student_dict["skills"])
@@ -62,34 +61,30 @@ student_dict["skills"].extend(["Apex", "JavaScript"])
 print("Updated Skills list after adding new values: ", student_dict["skills"])
 
 # dict.keys() and values() gives the list of keys and values as a list respectively
-print("\nStudent: ",student_dict.keys())
-print("Student: ",student_dict.values())
-
-
+print("\n",student_dict.keys())
+print(student_dict.values())
 
 
 #Question 3
 sisters = ("Bhavya","Mounika")
-print("Sisters: ", sisters,"\t type of sisters: ", type(sisters))
+print("Sisters: ", sisters,)
 brothers = ("Santhan","Sarath","Prem")
-print("Brothers: ", brothers, "\t type of brothers: ", type(brothers))
+print("Brothers: ", brothers)
 siblings = sisters+brothers
-print("siblings: ",siblings,"\t type of siblings: ", type(siblings))
-print("Number of Siblings: ", len(siblings))
+print("siblings: ",siblings)
+print("Number of Siblings:", len(siblings))
 family_members = siblings+("Gopikrishna","Sujatha")
-print("family_members: ", family_members, "\t type of family members ", type(family_members))
-
-
+print("family_members: ", family_members)
 
 
 #Question 4
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
-print("Length of Set it_companies: ",len(it_companies))
+print("Length of Set it_companies:",len(it_companies))
 #add(elements) adds elements into the set
 it_companies.add('Twitter')
 print("it_companies: ", it_companies)
 it_companies.update(['Cognizant','LinkedIn','Salesforce','Wipro'])
-print("it_companies after update: ",it_companies, type(it_companies))
+print("it_companies after update: ",it_companies)
 #remove() remove the element from the set
 it_companies.remove("LinkedIn")
 print(it_companies)
@@ -116,7 +111,7 @@ print("After clear Set A values: ", A,"\tSet B values: ",B)
 age = [22, 19, 24, 25, 26, 24, 25, 24] 
 print("\nage list: ",age)
 age_set = set(age)
-print("set of ageslist: ", age_set, "Datatype: ", type(age_set))
+print("set of ageslist: ", age_set)
 print("Length of age list: ", len(age), "\nLength of age set",len(age_set))
 
 
@@ -151,6 +146,7 @@ print(text)
 #Question 8
 radius = 10 
 area = 3.14 * radius ** 2 
+# using 'f' we can format the data. %.0f will give data without any decimals, %.2f displays until 2 decimals
 print("The area of a circle with radius",radius,"is %.0f" %area, "meters square.")
 
 
@@ -220,4 +216,3 @@ print('Sensitivity : ', sensitivity )
 #Specificity TN/(TN+FP)
 specificity = confusion_matrix_result[0,0]/(confusion_matrix_result[0,0]+confusion_matrix_result[0,1])
 print('Specificity : ', specificity)
-
