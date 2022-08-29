@@ -4,7 +4,7 @@ Course Info: CS 5710 & CRN 13469
 ### Student Info
 - First Name: Venkata Lakshmi Sasank
 - Last Name: Tipparaju
-- Student ID: 70073883
+- Student ID: 700738838
 - Mail ID: vxt88380@ucmo.edu
 
 ### Assignment 1 
