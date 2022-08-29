@@ -20,16 +20,13 @@ print("Average of ages: ", statistics.mean(ages))
 print("Range of ages: ", max(ages)-min(ages))
 
 #we can also use below code to find median and average of listed data
-"""
-ages_length = len(ages)
-if ages_length/2 != 0:
-    print("Median of ages: ", ages[int(ages_length/2)])
-else:
-    print("Median of ages: ", ages[ages_length-1/2]+ages[ages_length+1/2])
+# ages_length = len(ages)
+# if ages_length/2 != 0:
+#     print("Median of ages: ", ages[int(ages_length/2)])
+# else:
+#     print("Median of ages: ", ages[ages_length-1/2]+ages[ages_length+1/2])
     
-print("Average of ages: ", sum(ages)/ages_length)
-"""
-#data inside triple quotes is ignored by python while execution, unless it is assigned to a variable
+# print("Average of ages: ", sum(ages)/ages_length)
 
 
 
@@ -87,6 +84,7 @@ print("family_members: ", family_members, "\t type of family members ", type(fam
 
 #Question 4
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+print("Length of Set it_companies: ",len(it_companies))
 #add(elements) adds elements into the set
 it_companies.add('Twitter')
 print("it_companies: ", it_companies)
