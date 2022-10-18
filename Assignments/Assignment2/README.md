@@ -2,20 +2,17 @@
 Course Info: CS 5710 & CRN 13469
 ---
 ---
-### Assignment 1   [`Video Link`](https://vimeo.com/744380141/2fc86ee595)
+### Assignment 2 - In Class Programming Activity
 
 Please install the following modules/libraries of python before running code
 - [NumPy](https://numpy.org/install/)
 - [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
-- [Sklearn](https://scikit-learn.org/stable/install.html)
-- [Math](https://pypi.org/project/python-math/)
-- [Statistics](https://pypi.org/project/statistics/)
+- [Matplotlib](https://matplotlib.org/stable/users/installing/index.html)
+
 
 There are two main files
-- [ML_Assignment1.ipynb](https://github.com/Sasank09/CS5710_13469/blob/main/Assignments/Assignment1/ML_Assignment.ipynb)
-  - please run this file in jupyter notebook for results (Preferred)
-- [Assignment1.py](https://github.com/Sasank09/CS5710_13469/blob/main/Assignments/Assignment1/Assignment1.py)
-  - this file can be executed in command-line / terminal
+- [Assignment2.ipynb](https://github.com/Sasank09/CS5710_13469/blob/main/Assignments/Assignment2/Assignment2.ipynb)
+  - please run this file in jupyter notebook for results
   
 ---
 ## Student Info
