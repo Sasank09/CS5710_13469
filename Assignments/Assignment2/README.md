@@ -1,4 +1,4 @@
-# **Machine Learning** (Assignment# 1) 
+# **Machine Learning** (Assignment# 2) 
 Course Info: CS 5710 & CRN 13469
 ---
 ---
