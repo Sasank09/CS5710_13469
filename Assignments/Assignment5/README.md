@@ -2,7 +2,7 @@
 Course Info: CS 5710 & CRN 13469
 ---
 ---
-### Assignment 5 - In Class Programming Activity [`Video Link`](https://vimeo.com/)
+### Assignment 5 - In Class Programming Activity [`Video Link`](https://vimeo.com/768771241/17e2f0cf07)
 
 Please install the following modules/libraries of python before running code
 - [NumPy](https://numpy.org/install/)
