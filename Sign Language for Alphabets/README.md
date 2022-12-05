@@ -18,7 +18,7 @@ Please install the following modules/libraries of python before running code
 
 
 
-There are two main files
+Main file
 - [SLRS.ipynb](https://github.com/Sasank09/CS5710_13469/tree/main/Sign%20Language%20for%20Alphabets/SLRS.ipynb)
 
 ---
