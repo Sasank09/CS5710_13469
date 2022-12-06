@@ -20,6 +20,8 @@ Please install the following modules/libraries of python before running code
 
 Main file
 - [SLRS.ipynb](https://github.com/Sasank09/CS5710_13469/tree/main/Sign%20Language%20for%20Alphabets/SLRS.ipynb)
+- [Report PDF](https://github.com/Sasank09/CS5710_13469/blob/main/Sign%20Language%20for%20Alphabets/700738838_Sign%20Language%20Recognition%20System.pdf)
+- [PPT](https://github.com/Sasank09/CS5710_13469/blob/main/Sign%20Language%20for%20Alphabets/SLRS_PPT.pptx)
 
 ---
 ## Student Info
